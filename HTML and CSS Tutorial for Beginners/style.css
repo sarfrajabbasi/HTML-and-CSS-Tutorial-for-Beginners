@@ -1,0 +1,202 @@
+.para{
+    color: red;
+}
+/* color */
+
+h1{
+    color: red;
+    color: #ff0000;
+    color: rgb(0,0,255);
+}
+/* background */
+
+.p1{
+    background-color: red;
+}
+body{
+    background-image: url("https://source.unsplash.com/random/400x200/?wallpaper,landscape");
+    background-repeat:no-repeat;
+    background-position:100px 100px ;
+    background-attachment: fixed;
+}
+/* fonts property */
+.fonts{
+    font-family: Georgia, Verdana,Tahoma, serif;
+    font-style: italic;
+    font-size: 36px;
+    font-weight:bolder;
+
+}
+/* text formatting */
+.h1{
+    color: green;
+    text-align: left;
+    letter-spacing: 10px;
+    word-spacing: 50px; 
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: right;
+}
+.justify{
+    text-align: justify;
+    line-height: 1.5;
+}
+
+
+/* links */
+a:link{
+    color: pink;
+}
+a:hover{
+    color: blueviolet;
+}
+a:active{
+    color: blue;
+}
+a:visited{
+    color: orange;
+}
+
+
+/* border */
+
+.border{
+    border-style: dotted;
+}
+.border1{
+    border-style: dashed;
+}
+.border2{
+    border-style: solid;
+}
+.border3{
+    border-style: inset;
+}
+.border4{
+    border-style: outset;
+    border-width: 10px;
+    border-color: orange;
+    border-left-color: red;
+    border-bottom-color: blue;
+    border-top-color: green;
+    border: 5px solid blue;
+}
+
+/* padding */
+.padding{
+    color: black;
+    border: 5px solid purple;
+    padding: 25px;
+    padding-top: 55px;
+    padding-bottom: 15px;
+}
+/* margin */
+.para1{
+    margin: 100px;
+    margin-left: 100px;
+    margin-right: 100px
+}
+.para2{
+    margin: 100px;
+    margin-left: 100px;
+    margin-right: 100px
+}
+
+/* Tables */
+
+table{
+    border: 2px solid black;
+}
+tr{
+    background-color: orange;
+}
+th{
+    color: white ;
+}
+td{
+    border: 5px solid red;
+}
+
+/* span */
+span{
+    font-size:28px ;
+    color: aquamarine;
+}
+/* div */
+.div{
+    color: olivedrab;
+}
+div{
+    color: olivedrab;
+}
+/* selectors id */
+#p1{
+    color: #ff0000;
+}
+#p2{
+    color: blue;
+}
+#p3{
+    color: yellow;
+}
+/* selectors class */
+
+.pa1{
+background-color: tomato;
+}
+.pa2{
+background-color: brown;
+}
+.pa3{
+background-color: turquoise;
+}
+
+/* universal selector */
+
+*{
+    color: red;
+}
+/* descendent selector */
+div p {
+    color: blue;
+}
+
+/* child  selector */
+
+body > p{
+    color: black;
+}
+/* relative positioning */
+.relat{
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.abs{
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
+
+.div1{
+    position: relative;
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+}
+/* fixed positioning */
+.fixpos{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+/* external style sheet */
+
+.exter{
+    color: yellow;
+    background-color: black;
+}
